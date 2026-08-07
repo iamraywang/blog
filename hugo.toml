@@ -31,3 +31,7 @@ title = 'Relaxed Yourself'
     url = "/categories/"
     weight = 4
 
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+

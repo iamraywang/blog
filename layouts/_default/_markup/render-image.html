@@ -1,11 +1,19 @@
-{{- $Destination := .Destination -}}
-{{- $Text := .Text -}}
-{{- $Title := .Title -}}
+{{- $src := .Destination -}}
+{{- $width := "" -}}
 
-{{- $img := resources.Get $Destination -}}
+{{/* 1. 提取 URL 末尾的 #400px 或 #50% */}}
+{{- if (findRE `#\d+(px|%)?$` $src) -}}
+  {{- $width = (replaceRE `.*#(\d+(px|%)?)$` "$1" $src) -}}
+  {{- $src = (replaceRE `#\d+(px|%)?$` "" $src) -}}
+{{- end -}}
 
+{{/* 2. 自动去除开头的斜杠，确保 resources.Get 能在 assets 下找到图片 */}}
+{{- $assetPath := strings.TrimPrefix "/" $src -}}
+{{- $img := resources.Get $assetPath -}}
+
+{{/* 3. 渲染图片标签 */}}
 {{- if $img -}}
-  <img src="{{ $img.RelPermalink }}" alt="{{ $Text }}" {{ with $Title }}title="{{ . }}"{{ end }} />
+  <img src="{{ $img.RelPermalink }}" alt="{{ .Text }}" {{- with .Title }} title="{{ . }}"{{ end }} {{- with $width }} style="max-width: {{ . }}; height: auto;"{{ end }} />
 {{- else -}}
-  <img src="{{ $Destination | safeURL }}" alt="{{ $Text }}" {{ with $Title }}title="{{ . }}"{{ end }} />
+  <img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{- with .Title }} title="{{ . }}"{{ end }} {{- with $width }} style="max-width: {{ . }}; height: auto;"{{ end }} />
 {{- end -}}
