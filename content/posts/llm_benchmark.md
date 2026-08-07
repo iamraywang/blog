@@ -1,6 +1,7 @@
 ---
 date: '2025-11-25T09:22:54-08:00'
 title: 'LLM Benchmark'
+draft: true
 categories: ["AI"]
 tags: ["LLM", "Benchmark"]
 ---
@@ -231,4 +232,3 @@ This article provides a full overview of the most important and hardest benchmar
 -   **Link:** https://mmmu-benchmark.github.io/
 
 ------------------------------------------------------------------------
-

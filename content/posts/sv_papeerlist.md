@@ -1,8 +1,9 @@
 ---
 date: '2016-12-04'
 title: '说话人识别相关'
+draft: true
 math: true
-categories: ["research", "CN"]
+categories: ["Signal Processing", "CN"]
 tags: ["research", "CN"]
 ---
 

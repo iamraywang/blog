@@ -1,8 +1,9 @@
 ---
 title: "Review of Voice Activity Detection"
+draft: true
 date: 2023-02-28
 math: true
-categories: ["tech"]
+categories: ["Signal Processing"]
 tags: ["vad", "speech"]
 ---
 

@@ -1,7 +1,8 @@
 ---
 date: '2026-04-16T15:22:45+08:00'
 title: 'Experiences of How to Learn and Teach Others'
-categories: ["Skill"]
+draft: true
+categories: ["Others"]
 tags: ["Skill", "Learn", "Speech"]
 ---
 
@@ -55,5 +56,3 @@ Raise up the lession and show your expert point of view.
 **Limitations, Roadmap, Conclusion**.
 
 The first 2 parts can use vedios, pictures and charts to show. Part 3 use more logic system like charts, part 4 more practical use cases.
-
-
