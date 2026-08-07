@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CN on Relaxed Yourself</title><link>https://sigabeauty.github.io/blog/tags/cn/</link><description>Recent content in CN on Relaxed Yourself</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 04 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://sigabeauty.github.io/blog/tags/cn/index.xml" rel="self" type="application/rss+xml"/><item><title>说话人识别相关</title><link>https://sigabeauty.github.io/blog/posts/sv_papeerlist/</link><pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate><guid>https://sigabeauty.github.io/blog/posts/sv_papeerlist/</guid><description>&lt;p>开山之作，提出用GMM 和 GMM-UBM 来做说话人识别，统治了说话人识别十几年&lt;/p>
-&lt;ul>
-&lt;li>D. Reynolds, T. Quatieri, and R. Dunn, “Speaker verification using adapted gaussian mixture models”&lt;/li>
-&lt;/ul>
-&lt;p>联合因子分析方法&lt;/p>
-&lt;ul>
-&lt;li>P. Kenny, G. Boulianne, P. Ouellet, and P. Dumouchel, “Joint
-factor analysis versus eigenchannels in speaker recognition&amp;quot;&lt;/li>
-&lt;/ul>
-&lt;p>I-vector 首次提出，用一个低维的向量来表征说话人特性&lt;/p>
-&lt;ul>
-&lt;li>N. Dehak, P. J. Kenny, R. Dehak, P. Dumouchel, and P. Ouellet,
-“Front-end factor analysis for speaker verification”&lt;/li>
-&lt;/ul>
-&lt;p>在supervector上使用 SVM 做说话人区分学习&lt;/p>
-&lt;ul>
-&lt;li>W. Campbell, D. Sturim, and D. Reynolds, “Support vector machines using gmm supervectors for speaker verification”&lt;/li>
-&lt;/ul>
-&lt;p>开始使用 DNN 来提取GMM中的BW统计量，和用 DNN-HMM 做语音识别中的方法类似&lt;/p></description></item><item><title>一篇讲学习和读书的短文</title><link>https://sigabeauty.github.io/blog/posts/aboutread/</link><pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate><guid>https://sigabeauty.github.io/blog/posts/aboutread/</guid><description>&lt;p>看到一篇写如何读书和学习的文章，挺好。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CN on Relaxed Yourself</title><link>https://sigabeauty.github.io/blog/tags/cn/</link><description>Recent content in CN on Relaxed Yourself</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://sigabeauty.github.io/blog/tags/cn/index.xml" rel="self" type="application/rss+xml"/><item><title>一篇讲学习和读书的短文</title><link>https://sigabeauty.github.io/blog/posts/aboutread/</link><pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate><guid>https://sigabeauty.github.io/blog/posts/aboutread/</guid><description>&lt;p>看到一篇写如何读书和学习的文章，挺好。&lt;/p>
 &lt;p>拿啃鸡腿比方，正常人读书，鸡腿嘴中一过，肉剔得干干净净，骨头留下。不擅读书的人，肉带骨头一起吞下，拉出来还是一块鸡腿。擅长读书的人，就像《射雕英雄传》里面黄蓉做的菜，“二十四桥明月夜”，把香肠的味留下，香肠弃掉不食。&lt;/p>
 &lt;p>但问题是，味依肉而存在，如何剥离肉而不损失味，这是学问，也是功夫。&lt;/p>
 &lt;p>我有个同学是计算机博士，朋友电脑坏了找他，找完告诉我，他什么都不懂。我说，不懂就对了，但如果他去公司工作，年薪会超过50个修电脑的。&lt;/p>
