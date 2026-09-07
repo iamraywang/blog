@@ -1,6 +1,6 @@
 ---
 date: '2015-01-23'
-title: '关于 SVM 需要了解的'
+title: 'SVM 支持向量机'
 math: true
 categories: ["Machine Learning", "CN"]
 tags: ["Machine Learning", "CN"]

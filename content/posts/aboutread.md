@@ -2,6 +2,7 @@
 date: '2015-04-24'
 title: '一篇讲学习和读书的短文'
 math: true
+draft: true
 categories: ["others", "CN"]
 tags: ["reading", "CN"]
 ---

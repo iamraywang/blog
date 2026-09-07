@@ -1,6 +1,7 @@
 ---
 date: '2026-05-03T02:27:27+08:00'
 title: '去了趟 2050 大会 '
+draft: true
 categories: ["Others", "CN"]
 ---
 
